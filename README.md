@@ -1,6 +1,7 @@
 # AI Wings Project
 
 > Hold by the Microsoft Garage GCR for Hackathon 2023
+
 [AI Wings sharepoint](https://microsoft.sharepoint.com/:f:/t/TheGarageBeijing/ElnYJoaCk3hEr9XLdqNrPawBjEY0E-VvGR7ijOIGqmrDCg?e=U60r3V)
 
 ## Brief Introduction
