@@ -257,7 +257,7 @@
    - 粘贴羽毛时，采用层叠样式，从翅尖到翅根，一片盖一片
    - 翅膀需要加压晾干一天
 
-     `<img src="./assets/Screenshot 2023-08-18 at 14.39.10.png" alt="Screenshot 2023-08-18 at 14.39.10" style="zoom:30%;" />`
+     <img src="./assets/Screenshot 2023-08-18 at 14.39.10.png" alt="Screenshot 2023-08-18 at 14.39.10" style="zoom:30%;" />
 4. Leader（组织2-3人）进行最后的组装和维护
 
    > 推荐人数：2 人
@@ -269,7 +269,7 @@
    - 灯带接线
    - 电源、启动、开关机
 
-     `<img src="./assets/Screenshot 2023-08-18 at 14.28.03.png" alt="Screenshot 2023-08-18 at 14.28.03" style="zoom:30%;" />`
+     <img src="./assets/Screenshot 2023-08-18 at 14.28.03.png" alt="Screenshot 2023-08-18 at 14.28.03" style="zoom:30%;" />
 
 ### SiteLead ToDo
 
