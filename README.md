@@ -74,16 +74,16 @@
 
 1. 安装Conda环境：
 
-   前往 https://github.com/Archiconda/build-tools/releases下载 Archiconda 脚本，直接运行安装
+   [点击此处](https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-aarch64.sh) 下载Miniforge 脚本，直接运行安装，也可以使用以下的命令行
 
    ```bash
-   chmod 777 Archiconda3-0.2.3-Linux-aarch64.sh
-   ./Archiconda3-0.2.3-Linux-aarch64.sh
+   curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh"
+   bash Mambaforge-$(uname)-$(uname -m).sh
    ```
 
-2. 前往[paddle官方](https://paddleinference.paddlepaddle.org.cn/user_guides/download_lib.html#python)下载编译好的包，对于 Jetson nano 的GPU是`Maxwell`架构，选择`nv_jetson-cuda10.2-trt7-all`或`nv_jetson-cuda10.2-trt7-maxwell`
+3. 前往[paddle官方](https://paddleinference.paddlepaddle.org.cn/user_guides/download_lib.html#python)下载编译好的包，对于 Jetson nano 的GPU是`Maxwell`架构，选择`nv_jetson-cuda10.2-trt7-all`或`nv_jetson-cuda10.2-trt7-maxwell`
 
-3. 创建并配置环境：
+4. 创建并配置环境：
 
    ```bash
    # 创建paddle37虚拟环境
@@ -94,14 +94,14 @@
    pip install requirements.txt
    ```
 
-4. 导出模型
+5. 导出模型
 
    ```bash
    python tools/export_model.py -c configs/ppyoloe/ppyoloe_plus_crn_t_auxhead_320_300e_coco.yml --output_dir=./inference_model \
                                  -o weights=https://paddledet.bj.bcebos.com/models/ppyoloe_plus_crn_t_auxhead_320_300e_coco.pdparams
    ```
 
-5. 赋予串口`/tty/ACM0`读写权限，用于和 Arduino 通信
+6. 赋予串口`/tty/ACM0`读写权限，用于和 Arduino 通信
 
    ```bash
    # navigate to rules.d directory
@@ -114,7 +114,7 @@
 
    在`my-newrule.rules`中填入以下内容
 
-   ```json
+   ```bash
    KERNEL=="ttyACM0", MODE="0666"
    ```
 
