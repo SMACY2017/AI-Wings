@@ -10,8 +10,10 @@
 
 <img src="./assets/Intro.png" alt="Intro" style="zoom: 50%;" />
 
+
 ## Technique Details
-**所需材料以及技术文档请参见[这里](https://github.com/SMACY2017/AI-Wings/tree/main/code)**
+**[所需材料以及技术文档请参见这里](https://github.com/SMACY2017/AI-Wings/tree/main/code)**
+
 
 ## Assembly details
 
