@@ -139,7 +139,7 @@
    # 激活对应的虚拟环境，有可能直接使用conda activate不起作用，使用which conda命令找到安装的位置
    # 例如which conda结果为/home/garage/miniforge3/bin/conda，那么source命令如下
    # source /home/garage/miniforge3/etc/profile.d/conda.sh
-   conda activate paddle
+   conda activate paddle37
 
    cd /home/garage/Desktop/workspace/
    python maine_with_human_test.py
