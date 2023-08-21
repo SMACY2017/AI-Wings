@@ -146,7 +146,44 @@
 4. 将灯带的接地和热释电模块的接地（一般为黑色，标记 GND）连接到主板`GND 引脚`。
 5. 在灯带的开头，中间段，以及末尾提供USB供电
 
+#### 在Jetson Nano中设置开机自启
 
+1. 创建start.sh文件
+   ```bash
+   source activate paddle
+   cd /home/garage/Desktop/workspace/
+   python maine_with_human_test.py
+   ```
+
+2. chmod +x /path/to/start.sh
+3. 将start.sh文件打包成桌面启动器文件
+   - 创建一个桌面启动器
+   创建一个名为`start.desktop`的新文件在你的桌面或其他位置：
+   ```bash
+   vim ~/Desktop/start.desktop
+   ```
+   然后，将以下内容粘贴到该文件中：
+   
+   ```ini
+   [Desktop Entry]
+   Name=Start My Project
+   Comment=Run my start.sh script
+   Exec=gnome-terminal -- /path/to/start.sh
+   Icon=terminal
+   Terminal=false
+   Type=Application
+   ```
+   请确保替换`/path/to/start.sh`为你的`start.sh`脚本的绝对路径。
+   
+   - 使桌面启动器可执行
+   
+   与脚本一样，确保桌面启动器文件也是可执行的：
+   ```bash
+   chmod +x ~/Desktop/start.desktop
+   ```   
+   现在，你应该在桌面上看到一个名为“Start My Project”的图标。双击它会打开一个终端并运行你的`start.sh`脚本。
+
+   
 
 ## Assembly details
 
