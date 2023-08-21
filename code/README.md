@@ -88,7 +88,7 @@
    mkdir -p pyyoloe/inference_model #创建存放导出模型的文件夹
    cd ./PaddleDetection #切换到对应目录
    pip install pyserial #安装相关依赖
-   pip install requirements.txt #安装paddledetection的依赖
+   pip install -r requirements.txt #安装paddledetection的依赖
    python tools/export_model.py -c configs/ppyoloe/ppyoloe_plus_crn_t_auxhead_320_300e_coco.yml --output_dir=../pyyoloe/inference_model \
                                  -o weights=https://paddledet.bj.bcebos.com/models/ppyoloe_plus_crn_t_auxhead_320_300e_coco.pdparams
    ```
