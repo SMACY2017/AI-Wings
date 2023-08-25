@@ -90,7 +90,7 @@
    pip install pyserial #安装相关依赖
    pip install -r requirements.txt #安装paddledetection的依赖
    # 导出模型
-   python tools/export_model.py -c configs/ppyoloe/ppyoloe_plus_crn_t_auxhead_320_300e_coco.yml --output_dir=./inference_model \
+   python tools/export_model.py -c configs/ppyoloe/ppyoloe_plus_crn_t_auxhead_320_300e_coco.yml --output_dir=../ppyoloe/inference_model \
                                  -o weights=https://paddledet.bj.bcebos.com/models/ppyoloe_plus_crn_t_auxhead_320_300e_coco.pdparams trt=True
    ```
 5. 赋予串口 `/tty/ACM0`读写权限，用于和 Arduino 通信
