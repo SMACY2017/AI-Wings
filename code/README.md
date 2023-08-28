@@ -53,11 +53,10 @@
 
 1. 安装Conda环境：
 
-   前往 https://github.com/Archiconda/build-tools/releases下载 Archiconda 脚本，直接运行安装
+   前往 [Archconda aarch64版本](https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-aarch64.sh)下载Miniforge，直接运行安装
 
    ```bash
-   chmod 777 Archiconda3-0.2.3-Linux-aarch64.sh
-   ./Archiconda3-0.2.3-Linux-aarch64.sh
+   ./Miniforge3-Linux-aarch64
    ```
 2. 前往[paddle官方](https://paddleinference.paddlepaddle.org.cn/user_guides/download_lib.html#python)下载编译好的包，对于 Jetson nano ，选择 `paddlepaddle_gpu-2.3.2-cp37-cp37m-linux_aarch64.whl`
 3. 创建并配置环境、增加虚拟内存swap空间：
