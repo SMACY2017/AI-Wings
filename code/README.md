@@ -44,7 +44,7 @@
 
 1. 使用跳线帽，短接 Jetson 主板上的 J48 引脚，确保使用DC供电模式
 
-<img src="./assets/20201225133627579.png" alt="20201225133627579" style="zoom:10%;" />
+<img src="../assets/20201225133627579.png" alt="20201225133627579" style="zoom:10%;" />
 
 2. 连接HDMI显示屏，以及键鼠，正常开机进入Ubuntu系统，按照提示完成基本设置。
 3. 为了后续运行模型需要，**推荐安装一个PWM 4pin的风扇**。关于风扇调速的设置可以参考https://github.com/Pyrestone/jetson-fan-ctl
@@ -124,7 +124,7 @@
 
 ### Arduino Mega 2560 接线
 
-<img src="./assets/Arduino-Mega-Pinout.png" alt="Arduino-Mega-Pinout" style="zoom: 30%;" />
+<img src="../assets/Arduino-Mega-Pinout.png" alt="Arduino-Mega-Pinout" style="zoom: 30%;" />
 
 1. 将USB连接到 Jetson Nano主板上
 2. 灯带的信号控制线连接 `6 引脚`，热释电模块连接到 `7 引脚`
