@@ -36,7 +36,7 @@
 2. 安装镜像烧录工具[Etcher](https://www.balena.io/etcher)
 3. 选择下载的镜像，以及插入至少32GB的SD卡，烧写镜像
 
-   <img src="./assets/Jetson_Nano-Getting_Started-Windows-Etcher_Select_Drive.png" alt="Jetson_Nano-Getting_Started-Windows-Etcher_Select_Drive" style="zoom: 80%;" />
+   <img src="../assets/Jetson_Nano-Getting_Started-Windows-Etcher_Select_Drive.png" alt="Jetson_Nano-Getting_Started-Windows-Etcher_Select_Drive" style="zoom: 80%;" />
 
 #### Jetson Nano 开机和基本配置
 
